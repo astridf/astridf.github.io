@@ -1,0 +1,25 @@
+<header class="secondary-banner">
+    <div class="secondary-banner-wrapper">
+        <div class="container">
+            <div class="col-lg-12 secondary-banner-text">
+                <h2>{{page.title}}</h2>
+                <h4>TLDR: {{page.tldr}}</h4>
+                <h4 class="post-meta"><small>
+                    <time itemprop="datePublished">
+                        {{ page.date | date: "%-d %B, %Y" }}
+                    </time>
+                    {% if page.author %}
+                    • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                        <span itemprop="name">{{ page.author }}</span>
+                    </span>
+                    {% endif %}
+                    {% if page.category %}
+                    • <span itemprop="category">
+                        <span itemprop="categoryname">{{ page.category }}</span>
+                    </span>
+                    {% endif %}
+                </small></h4>
+            </div>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,25 @@
+---
+layout: default
+title : The Blog
+permalink: /blog/
+description: |
+    A place for me to document whatever's currently going on, keep track of my previous projects, and have more than 140 characters to express my thoughts.
+---
+
+{% for post in site.posts %}
+<div class="col-md-4 col-sm-6 col-xs-12">
+    <article class="card">
+        {% if post.thumbnail %}
+        <div class="col-sm-12">
+            <img class="card-img-top img-responsive" src="/img/blog/{{post.thumbnail}}" alt="{{project.title}}" />
+        </div>
+        {% endif %}
+        <div class="card-block col-sm-12">
+            <h4 class="card-title">{{ post.title | truncate: 30}}</h4>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.category }}</span>
+            <p class="card-text">{{ post.content | strip_html | strip_newlines | truncate: 140 }}</p>
+            <a href="{{ post.url }}" class="work-button">Read More</a>
+        </div>
+    </article>
+</div>
+{% endfor %}

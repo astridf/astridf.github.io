@@ -1,19 +1,32 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title: Jekyll Site
+title: Astrid Farmer
+description: > #
+  I'm a final year student at The University of Queensland, with a knack for web design,
+  software development, and messing around with electronics.
+baseurl: /
+url: "" 
+
 email: astridfarmer1@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Sexy new Jekyll site, cause Github Pages is free... and I'm cheap.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: astrid_farmer
-github_username:  astridf
+github: "https://github.com/astridf"
+github-username: astridf
+dribbble: "https://dribbble.com/astridfarmer"
+dribbble-username: astridfarmer
+linkedin: "https://au.linkedin.com/in/astridfarmer"
+linkedin-username: astridfarmer
+twitter: "https://twitter.com/astrid_farmer"
+twitter-username: astrid_farmer
+codepen: "http://codepen.io/astridfarmer/"
+codepen-username: astridfarmer
+instagram: "https://www.instagram.com/astrid_farmer/"
+instagram-username: astrid_farmer
+
+collections:
+  posts:
+    permalink: /blog/:title
+  projects:
+    output: true
+    layout: projectpage
+    permalink: /:path/
 
 # Build settings
 markdown: kramdown
