@@ -1,0 +1,26 @@
+---
+layout: post
+title:  Week 9 Recap
+date:   2016-05-09
+category: Physical Computing (DECO3850)
+author: "Astrid Farmer"
+tldr: Blob tracking was a success, worked out how to track their velocities
+thumbnail: kinect3d.png
+---
+
+So this week has been way busier than I expected, mainly because I'm trying to complete my other assignments as early as possible so that I can spend more of my time in the next few weeks working on this project! I did manage to fit in a day of work on this project though, as well as a quick test with the full-size installation at uni.
+
+My goal for the week was to successfully get the blob tracking working, which turned out to be easier than I expected. How it works is as follows:
+
+1. Perform the same depth threshold analysis on every pixel of the Kinect image to determine what is in front of the threshold.
+2. Take the resulting pixels which were in front of the threshold and use a blur algorithm on them to reduce noise particles and give us a better blob shape.
+3. Feed the resulting blurred image into the blob detection library.
+4. Look at all the pretty blobs!
+
+So now that I have the blobs, I can use things like the x and y position of the centre, the width, height, and total area in order to generate the MIDI messages sent to Ableton. However, it's unfortunately not so straight forward for the visuals. At every frame, the blob detection library re-calculates the blobs it can see in the new frame, meaning that given the current functionality it is impossible to track blobs across multiple frames which is necessary if I want to get the velocity of a particular blob. 
+
+I decided I couldn't just give up on that, so I set out to create a few new functions which would track the blobs, so I could calculate those precious, precious velocities. I did this by storing the previous blobs in an array to compare with the next set of blobs. I then created a few functions to check the similarity of the x-position, the y-position, the width, and the height of each blob against the previous set of blobs in order to find their velocities. 
+
+Due to the nature of our installation, there is unlikely to be more than 10 or so blobs registered at any time, and very close proximity between blobs usually results in the blobs merging, meaning that I can safely set some kind of threshold above and below the height, width, x and y position of a blob with which to determine the previous blob that matches.
+
+Upon testing my work in progress with the installation itself at uni on a Sunday night, a couple of issues arose. The main problem was that pushing the spandex in the middle creates a much bigger blob passing the depth threshold because it is the point of least resistance. To combat this, we are going to place bars or wood vertically to separate the spandex into three sections in such a manner that pushing on one side will not affect the other side. Once this is in place, the size of blobs should be uniform across all three sections.
