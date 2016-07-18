@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A build I finally can't break!
+title:  A build I can't break!
 date:   2016-04-29
 category: Physical Computing (DECO3850)
 author: "Astrid Farmer"
