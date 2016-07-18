@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Yet another testing session
-date:   2016-05-23
+date:   2016-05-26
 category: Physical Computing (DECO3850)
 author: "Astrid Farmer"
 tldr: The Mac Mini will be the death of us, reworked the MIDI code too
