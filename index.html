@@ -47,7 +47,7 @@ title: Home
             </div>
             {% endif %}
             <div class="card-block col-sm-12">
-                <h4 class="card-title">{{ post.title | truncate: 30}}</h4>
+                <h4 class="card-title">{{ post.title | truncate: 38}}</h4>
                 <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.category }}</span>
                 <p class="card-text">{{ post.content | strip_html | strip_newlines | truncate: 70 }}</p>
                 <a href="{{ post.url }}" class="work-button">Read More</a>
