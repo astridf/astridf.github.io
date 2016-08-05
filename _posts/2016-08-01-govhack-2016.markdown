@@ -1,0 +1,28 @@
+---
+layout: post
+title:  GovHack 2016
+date:   2016-08-01
+category: Hackathons
+author: "Astrid Farmer"
+tldr: Attended my first hackathon ever, and had a blast working on our project for 48 hours.
+thumbnail: govhackbne.jpg
+---
+
+ ![GovHack Brisbane]({{ site.baseurl }}img/blog/govhack.jpg)
+
+ Finally, after nearly a year of being jealous of people participating in hackathons, I attended GovHack. Held at UQ,
+ and with a bunch of friends from DECO3850 also participating, it seemed the perfect opportunity to get a taste of what
+ hackathons were like. I was more concerned with getting a little bit of experience with these types of things rather than actually winning, so I joined my friends in a group of 8 people. Though at times it was chaotic to have that many people working on the same project in such a short amount of time, it was definitely worth it.
+
+ Our project actually turned out pretty well considering we only settled on our final idea after lunchtime on Saturday. I worked on the backend with Isaac, Timmy, and John, whilst the other four (Lena, Maddie, Daniel and Ken) worked on the frontend and user experience design. Hopefully we can grab at least one prize for our work, but we'll have to wait another few weeks to find out for the state prizes, and a few months for the national or international prizes.
+
+ You can check out the submission and accompanying datasets here:
+ [HackerSpace - GovHack Brisbane](https://2016.hackerspace.govhack.org/content/crikey-helping-your-community)
+
+ And here's a quick excerpt from the description:
+
+> Weigetpaid is a Brisbane Govhack group consisting of UQ students and alumni. The team consists of Maddie Kingsley, Lena Ogg, Astrid Farmer, Tim Hadwen, Daniel Fraser, Isaac Hill, John Kent and Ken Yoong Lim. Every year Australia faces many destructive natural disasters that will affect every Australian directly or indirectly. Even though education and media coverage about these disasters is plentiful the majority of Aussies stay at home throughout these disasters. Many think the risk is not high enough to warrant proper preparation or evacuation. Each year many Aussies fall victim to issues that would have be easily avoidable if the proper procedure was followed creating tremendous repair bills and worse yet putting themselves and their families in danger. Our app Crikey is an emergency response app that works on addressing these key issues. Crikey will make it simpler to deduce how much danger you or your family are in along with provide a map with useful resources and critical information when preparing for dangerous conditions.
+
+ Here's the short video we made for our submission:
+
+ <iframe width="100%" height="480" src="https://www.youtube.com/embed/OE-npkzdsdA" frameborder="0" allowfullscreen></iframe>
