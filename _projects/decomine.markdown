@@ -11,11 +11,11 @@ In Semester 2 of 2015 I studied DECO2800 (Design Computing Studio 2 - Testing & 
 The course involved the design and development of a simulator game with five interconnected sub-games, namely a marketplace, factory, farm, mine, and habitat. The aim was to develop a fully functional simulator which allowed for communication and trading of peons, wealth and resources through the centralised marketplace. I worked on the mining simulator with 60 other students, developing methods of transport such as ropes, ladders and elevators to assist peon travel around the mines and landscapes in the simulator.
 
 <div class="col-md-6" markdown="1">
-![DecoMine Game]({{ site.baseurl }}img/decomine2.png)
+![DecoMine Game]({{ site.baseurl }}/img/decomine2.png)
 </div>
 
 <div class="col-md-6" markdown="1">
-![DecoMine Interface]({{ site.baseurl }}img/decomine3.png)
+![DecoMine Interface]({{ site.baseurl }}/img/decomine3.png)
 </div>
 
 This provided me with a fantastic opportunity to apply my Java programming skills to a continuous integration project with a strong emphasis on unit testing, where I was able to learn far more than I would have just being lectured with content. At the end of the 13 week period, the cohort collectively contributed over 9000 commits on 165 feature branches, with the project being a huge success. I contributed 63 commits and 6,782 lines to the mine simulator project, the third highest in the project, and as a result of my involvement was selected as one of four students who demonstrated the finished project to the university's industry partners and the general public. This provided me with a fantastic networking opportunity which I valued greatly. Looking back on the course, I am incredibly proud of my own personal progress throughout the semester and also of the finished project.
@@ -58,6 +58,6 @@ I came up with two ideas for new random events and decided to implement them mys
 *   Clear all tiles in the path of dynamic transportation
 *   Write `transportContextController` & `transportContextControllerHandler`
 
-![Github contribution]({{ site.baseurl }}img/decomine4.png)  
+![Github contribution]({{ site.baseurl }}/img/decomine4.png)  
 
 You can find more examples of projects I've done in the area of game development [here!](http://astridfarmer.com/gamedevelopment)
