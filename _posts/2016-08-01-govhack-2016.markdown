@@ -8,7 +8,7 @@ tldr: Attended my first hackathon ever, and had a blast working on our project f
 thumbnail: govhackbne.jpg
 ---
 
- ![GovHack Brisbane]({{ site.baseurl }}img/blog/govhack.jpg)
+ ![GovHack Brisbane]({{ site.baseurl }}/img/blog/govhack.jpg)
 
  Finally, after nearly a year of being jealous of people participating in hackathons, I attended GovHack. Held at UQ,
  and with a bunch of friends from DECO3850 also participating, it seemed the perfect opportunity to get a taste of what
@@ -23,6 +23,4 @@ thumbnail: govhackbne.jpg
 
 > Weigetpaid is a Brisbane Govhack group consisting of UQ students and alumni. The team consists of Maddie Kingsley, Lena Ogg, Astrid Farmer, Tim Hadwen, Daniel Fraser, Isaac Hill, John Kent and Ken Yoong Lim. Every year Australia faces many destructive natural disasters that will affect every Australian directly or indirectly. Even though education and media coverage about these disasters is plentiful the majority of Aussies stay at home throughout these disasters. Many think the risk is not high enough to warrant proper preparation or evacuation. Each year many Aussies fall victim to issues that would have be easily avoidable if the proper procedure was followed creating tremendous repair bills and worse yet putting themselves and their families in danger. Our app Crikey is an emergency response app that works on addressing these key issues. Crikey will make it simpler to deduce how much danger you or your family are in along with provide a map with useful resources and critical information when preparing for dangerous conditions.
 
- Here's the short video we made for our submission:
-
- <iframe width="100%" height="480" src="https://www.youtube.com/embed/OE-npkzdsdA" frameborder="0" allowfullscreen></iframe>
+ 
