@@ -20,4 +20,4 @@ thumbnail: mozartsetup3.jpg
 
  Oh and we also got team shirts finally, courtesy of Naomi!  
 
- ![Good Vibes Shirts]({{ site.baseurl }}img/blog/tshirts.jpg)
+ ![Good Vibes Shirts]({{ site.baseurl }}/img/blog/tshirts.jpg)
