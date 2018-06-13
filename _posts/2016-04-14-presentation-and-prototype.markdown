@@ -13,10 +13,10 @@ After the presentations were over, we jumped straight into thinking about how we
 
 On Tuesday, after the Arduino and Kinect run-throughs, our team headed off one member down to go and check out materials at Bunnings, Spotlight, and Reverse Garbage. It was definitely useful to see what was available to us, even though we didn’t end up buying anything. We’ve ruled out Reverse Garbage for now, since they don’t have much in the way of timber or metal to use to build our frame. If we are unable to source cheap wood or metal from places like gumtree or uni, we will most likely just have to pick some up at Bunnings. Unfortunately the spandex materials at Spotlight is very expensive, $30/m and we will need roughly 3 metres, that will probably be our biggest expense.
 
-![Good Vibes]({{ site.baseurl }}img/blog/kbg.png)
+![Good Vibes]({{ site.baseurl }}/img/blog/kbg.png)
 
 I spent both yesterday and today working on the Kinect side of things to see if I could get something functional to use with the prototype, and I’ve made a bit more progress than I expected. It looks as though we should be able to pull everything off and have a great prototype to show to the class next Friday.
 
 Oh and we also have a shiny new team name, as a result of the mysterious person who left us feedback saying we had 'good vibes'. Logo courtesy of Naomi.
 
-![Good Vibes]({{ site.baseurl }}img/blog/vibes.jpg)
+![Good Vibes]({{ site.baseurl }}/img/blog/vibes.jpg)
