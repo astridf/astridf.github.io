@@ -12,17 +12,6 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/">HOME</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">PROJECTS
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        {% for project in site.projects %}
-                        <li><a href="{{ project.url }}">{{ project.title }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </li>
-                <li><a href="/blog/">BLOG</a></li>
                 <li><a href="/contact/">CONTACT</a></li>
             </ul>
         </div>
