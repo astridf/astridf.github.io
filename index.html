@@ -1,1 +1,62 @@
 
+---
+layout: homepage
+title: Home
+---
+<!--
+<div class="row">
+    <div class="col-lg-12">
+        <hr>
+        <p>Below you'll find some of the work I've done at university so far, as well as a few personal projects I've done myself. The work is arranged primarily in general skill areas, but there's a few specific projects which I felt deserved pages of their own too. I hope to continue adding to this collection during the holidays and over the course of my final semester, but that all depends on how busy I'll be. So stay tuned.</p>
+        <hr>
+        <div class="spacer"></div>
+    </div>
+
+
+    {% for project in site.projects %}
+    <div class="col-md-4 col-sm-6 col-xs-12">
+        <article class="card">
+            <div class="col-sm-12">
+                <img class="card-img-top img-responsive" src="img/{{project.feature-img}}" alt="{{project.title}}" />
+            </div>
+            <div class="card-block col-sm-12">
+                <h4 class="card-title">{{ project.title }}</h4>
+                <p class="card-text">{{ project.description }}</p>
+                {% if project.status == 'unfinished' %}
+                <a class="soon-button">Coming Soon</a>
+                {% else %}
+                <a href="{{ project.url }}" class="work-button">Read More</a>
+                {% endif %}
+            </div>
+        </article>
+    </div>
+    {% endfor %}
+
+    <div class="spacer"></div>
+
+    <div class="col-lg-12">
+        <h5 class="text-center">Check out some of my recent blog posts:</h5>
+        <hr>
+    </div>
+
+    {% for post in site.posts limit:3 %}
+    <div class="col-md-4 col-sm-6 col-xs-12">
+        <article class="card">
+            {% if post.thumbnail %}
+            <div class="col-sm-12">
+                <img class="card-img-top img-responsive" src="/img/blog/{{post.thumbnail}}" alt="{{project.title}}" />
+            </div>
+            {% endif %}
+            <div class="card-block col-sm-12">
+                <h4 class="card-title">{{ post.title | truncate: 30}}</h4>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ post.category }}</span>
+                <p class="card-text">{{ post.content | strip_html | strip_newlines | truncate: 80 }}</p>
+                <a href="{{ post.url }}" class="work-button">Read More</a>
+            </div>
+        </article>
+    </div>
+    {% endfor %}
+-->
+
+</div>
+<div class="spacer"></div>
